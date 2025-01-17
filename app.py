@@ -773,7 +773,7 @@ with tabs[3]:
                 contact_email = st.text_input("Contact Email", value=member_data[51])
                 reg_date = st.date_input(
                                             "Registration Date", 
-                                            value=datetime.strptime(member_data[52], "%Y-%m-%d").date() if member_data[51] else date.today(),
+                                            value=datetime.strptime(member_data[52], "%Y-%m-%d").date() if member_data[52] else date.today(),
                                             key="reg_date"
                                         )
 
