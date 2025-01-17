@@ -1,6 +1,6 @@
+fpdf
 pandas
 streamlit
 sqlite3
-FPDF
 os-sys
 datetime
