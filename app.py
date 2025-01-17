@@ -407,12 +407,6 @@ with tabs[2]:
                 self.set_line_width(0.5)       # Set border thickness
                 self.rect(5, 5, 200, 287)     # x, y, width, height (adjust as per your page size)
 
-            
-            # def set_unicode_font(self):
-            #     # Make sure the Tamil font .ttf file is in the same directory or provide full path
-            #     self.add_font('Latha', '', 'Latha.ttf', uni=True)  # Adjust path if needed
-            #     self.set_font('Latha', '', 12)  # Use Latha font for Tamil text
-
 
         # Function to fetch member data from the database
         def get_customer_data(search_opt, search_que):
@@ -457,7 +451,6 @@ with tabs[2]:
             pdf.multi_cell(0, 10, f"Class: {customer_data[8] if customer_data[8] else 'N/A'}")
             pdf.multi_cell(0, 10, f"Caste: {customer_data[9] if customer_data[9] else 'N/A'}")
             pdf.multi_cell(0, 10, f"Sub Caste: {customer_data[10] if customer_data[10] else 'N/A'}")
-            pdf.set_unicode_font()
             pdf.multi_cell(0, 10, f"Rasi: {customer_data[11] if customer_data[11] else 'N/A'}")
             pdf.multi_cell(0, 10, f"Star: {customer_data[12] if customer_data[12] else 'N/A'}")
             pdf.set_font("Arial", 'B', 12)
