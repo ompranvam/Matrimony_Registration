@@ -1,5 +1,4 @@
 fpdf
-sqlite3
 os-sys
 datetime
 pandas==2.2.3
