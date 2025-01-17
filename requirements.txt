@@ -1,0 +1,6 @@
+fpdf
+pandas
+streamlit
+sqlite3
+os-sys
+datetime
