@@ -439,7 +439,7 @@ with tabs[2]:
 
             # Title
             pdf.set_font("Arial", 'B', 16)
-            # pdf.set_unicode_font()
+            
             
             pdf.ln(10)
 
