@@ -408,10 +408,10 @@ with tabs[2]:
                 self.rect(5, 5, 200, 287)     # x, y, width, height (adjust as per your page size)
 
             
-            def set_unicode_font(self):
-                # Make sure the Tamil font .ttf file is in the same directory or provide full path
-                self.add_font('Latha', '', 'Latha.ttf', uni=True)  # Adjust path if needed
-                self.set_font('Latha', '', 12)  # Use Latha font for Tamil text
+            # def set_unicode_font(self):
+            #     # Make sure the Tamil font .ttf file is in the same directory or provide full path
+            #     self.add_font('Latha', '', 'Latha.ttf', uni=True)  # Adjust path if needed
+            #     self.set_font('Latha', '', 12)  # Use Latha font for Tamil text
 
 
         # Function to fetch member data from the database
@@ -439,7 +439,7 @@ with tabs[2]:
 
             # Title
             pdf.set_font("Arial", 'B', 16)
-            pdf.set_unicode_font()
+            # pdf.set_unicode_font()
             
             pdf.ln(10)
 
