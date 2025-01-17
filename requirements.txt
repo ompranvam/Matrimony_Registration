@@ -1,6 +1,6 @@
 fpdf
 pandas
-streamlit>=1.41.1
+streamlit
 sqlite3
 os-sys
 datetime
