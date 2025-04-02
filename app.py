@@ -97,7 +97,7 @@ def set_background_color(color):
     )
 
 # Set the background color
-background_color = "#302b30"  # Use any valid CSS color (name, HEX, RGB, etc.)
+background_color = "#FFFFFF"  # Use any valid CSS color (name, HEX, RGB, etc.)
 set_background_color(background_color)
 
 
